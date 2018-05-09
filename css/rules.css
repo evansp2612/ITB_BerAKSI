@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body {
+    width: 37%;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    height: 70px;
+    background: white;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.username {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+.username p {
+    margin-bottom: 3px;
+}
+
+.menubar {
+    border: solid black;
+    border-width: 1px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#menu-order {
+    font-size: 25px;
+    display: inline-block;
+    width: 33%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+	cursor: pointer;
+}
+
+#menu-history {
+    font-size: 25px;
+    display: inline-block;
+    width: 33.6%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    border-left: solid black;
+    border-right: solid black;
+    border-width: 1px;
+	background: #465D43;
+    color: white;
+	cursor: pointer;
+}
+
+#menu-profile {
+    font-size: 25px;
+    display: inline-block;
+    width: 33%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+	cursor: pointer;
+}
